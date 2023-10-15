@@ -1,5 +1,5 @@
 .body {
-  background-image: url(./src/images/Background1.webp);
+  background-image: url(./src/images/background1.webp);
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 100vw;
@@ -216,7 +216,7 @@
   box-sizing: border-box;
 }
 .quality {
-  background-image: url(./src/images/Background2.webp);
+  background-image: url(./src/images/background2.webp);
   background-size: cover;
 }
 .quality-title {
@@ -274,7 +274,7 @@
 }
 .s4 {
   height: 580px;
-  background-image: url(./src/images/Background3.webp);
+  background-image: url(./src/images/background3.webp);
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 100vw;
