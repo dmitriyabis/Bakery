@@ -2,8 +2,9 @@
   background-image: url(./src/images/background.webp);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  width: 100vw;
+  max-width: 100vw;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 .header {
   margin-top: 55px;
@@ -136,7 +137,8 @@
   margin-top: 20px;
 }
 .s2 {
-  width: 100vw;
+  max-width: 100vw;
+  box-sizing: border-box;
   height: 775px;
   background: #202023;
 }
@@ -209,11 +211,13 @@
   margin-bottom: 7px;
 }
 .s3 {
-  width: 1400;
+  width: 100vw;
   background-color: #202023;
+  box-sizing: border-box;
 }
 .quality {
   background-image: url(./src/images/Background2.webp);
+  background-size: cover;
 }
 .quality-title {
   color: #fff;
@@ -304,6 +308,7 @@
 }
 .footer-s1 {
   width: 100vw;
+  box-sizing: border-box;
   height: 704px;
   background: #202023;
 }
@@ -393,6 +398,7 @@
 }
 .footer-s2 {
   width: 100vw;
+  box-sizing: border-box;
   height: 351px;
   background: #202023;
 }
@@ -525,4 +531,7 @@
   text-align: center;
   margin: 0;
   padding-top: 86px;
+}
+section {
+  max-width: 100%;
 }
