@@ -210,12 +210,10 @@
 }
 .s3 {
   width: 1400;
-  height: 852px;
   background-color: #202023;
 }
 .quality {
   background-image: url(./src/images/Background2.webp);
-  margin-top: 210px;
 }
 .quality-title {
   color: #fff;
@@ -242,16 +240,19 @@
   width: 275px;
   height: 284px;
   flex-shrink: 0;
+  padding-top: 50px;
 }
 .quality-img-3 {
   width: 334px;
   height: 332px;
   flex-shrink: 0;
+  padding-top: 130px;
 }
 .quality-div-list {
   width: 292px;
   height: 198px;
   background: rgb(95, 92, 92);
+  margin-bottom: 50px;
 }
 .quality-list {
   padding: 0;
